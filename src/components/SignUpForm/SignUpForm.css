@@ -1,0 +1,26 @@
+
+.signup-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3vmin;
+    margin: 0 50vmin;
+}
+
+.name-and-email, .password-and-confirm {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5vmin;
+}
+
+.signup-btn {
+    background-color: rgba(251, 192, 238, 0.93);
+    padding: 1vmin vmin;
+    font-size: 2vmin;
+}
+
+.signup-btn:hover {
+    transform: scale(1.2);
+}
+

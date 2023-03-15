@@ -1,0 +1,115 @@
+.details-page {
+  background-image: url('https://i.imgur.com/FUYrzWg.jpg');
+  
+}
+
+.details-page-form {
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+ 
+}
+
+.edit-and-delete-btns {
+  margin-top: -12vmin;
+  height: 3vmin;
+  float: right;
+}
+
+img.edit-details-icon,
+img.delete-details-icon {
+  height: 2vmin;
+  display: flex;
+}
+
+.edit-details-btn:hover,
+.delete-details-btn:hover {
+  transform: scale(1.2);
+}
+
+.delete-details-btn {
+  background-color: rgba(237, 72, 209, 0.415);
+  margin: 1vmin 8vmin 1vmin 1vmin;
+  padding: 1vmin 0.5vmin;
+}
+
+.edit-details-btn {
+  background-color: rgba(237, 72, 209, 0.415);
+  margin: 1vmin;
+  padding: 1vmin 1vmin;
+}
+
+.what,
+.when,
+.note
+ {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: -1vmin 30vmin;
+}
+
+.what {
+  margin-top:3vmin;
+}
+.when {
+  margin-top:3vmin;
+}
+.note {
+margin-top:7vmin;
+}
+.details-title {
+  font-family: 'Anonymous Pro', monospace;
+  font-size: 3.5vmin;
+}
+
+.detail-text {
+  font-family: 'Anonymous Pro', monospace;
+  font-size: 2vmin;
+  width: 35vmin;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.what-title {
+  font-size: 3.5vmin;
+}
+
+
+.submit-details-change {
+  background-color: rgb(246, 146, 198);
+  padding: 1vmin 3.5vmin;
+  font-size: 1.5vmin;
+  margin: 1.3vmin 4vmin 4.5vmin;
+  width: 12vmin;
+  position: fixed; 
+ 
+ 
+  
+}
+
+.submit-details-change:hover {
+  transform: scale(1.2);
+}
+
+.scroll {
+  height: 6vmin;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+.details-input {
+  width: 35vmin;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  resize: none;
+  font-size: 2vmin;
+  
+}
+
+.what-detail-text {
+  font-size: 3vmin;
+}
+
